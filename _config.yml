@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+
+# Permalinks
+permalink:        none
+
+# Setup
+title:            'VPN.ht'
+description:      'Regional Gateways and custom OpenVPN Configurations.'
+url:              https://config.vpn.ht
+
+author:
+  name:           'VPN.ht'
+
+# OpenVPN Configs Available
+openvpnConfig:
+- country: Europe
+  url: /public/files/vpnht-eu.ovpn
+- country: North America
+  url: /public/files/vpnht-us.ovpn
+- country: France
+  url: /public/files/vpnht-fr.ovpn
+- country: Netherlands
+  url: /public/files/vpnht-nl.ovpn
+- country: Singapore
+  url: /public/files/vpnht-sg.ovpn
+- country: Nearest
+  url: /public/files/vpnht.ovpn

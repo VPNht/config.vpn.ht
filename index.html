@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h2>Regional OpenVPN Configurations</h2>
+<p>We use our own private DNS servers for your DNS queries while on the VPN, and we automatically route some website trough United-States allowing you to access Geo-blocked content even if you have a EU or FR ips.</p>
+
+<div class="configs">
+  {% for config in site.openvpnConfig %}
+  <div class="config">
+    <h3>
+      <a href="{{ config.url }}">{{ config.country }}</a>
+    </h3>
+    <p>
+      <a href="{{ config.url }}" class="btn">Download</a>
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<hr>
+
+<p>&copy; {{ site.time | date: '%Y' }} <a href="https://vpn.ht/">VPN.ht</a></p>
