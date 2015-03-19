@@ -12,8 +12,12 @@ layout: default
       <a href="{{ config.url }}">{{ config.country }}</a>
     </h3>
     <p>
-      <a href="{{ config.url }}" class="btn">Download</a>
+      <a href="{{ config.default }}" class="btn">Download</a>
     </p>
+    Others encryptions:<br/>
+    {% for file in config.files %}
+        <a href="{{ file.url }}" class="encryption">{{ file.name }}</a>
+    {% endfor %}
   </div>
   {% endfor %}
 </div>

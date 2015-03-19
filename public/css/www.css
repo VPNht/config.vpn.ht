@@ -67,5 +67,10 @@ hr {
   padding: 0 1rem;
 }
 .config h3 {
-  margin-top: 1rem;
+  margin-top: 50px;
+}
+
+.encryption {
+    font-size:10px;
+    margin-right:20px;
 }
