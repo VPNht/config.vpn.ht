@@ -6,17 +6,17 @@ layout: default
 <p>We use our own private DNS servers for your DNS queries while on the VPN, and we automatically route some website trough United-States allowing you to access Geo-blocked content even if you have a EU or FR ips.</p>
 
 <div class="configs">
-  {% for config in site.openvpnConfig %}
+  {% for country in site.data.config %}
   <div class="config">
     <h3>
-      <a href="{{ config.url }}">{{ config.country }}</a>
+      {{ country.name }}
     </h3>
     <p>
-      <a href="{{ config.default }}" class="btn">Download</a>
+      <a href="{{ country.default.file }}" class="btn">Download</a>
     </p>
-    Others encryptions:<br/>
-    {% for file in config.files %}
-        <a href="{{ file.url }}" class="encryption">{{ file.name }}</a>
+    Other encryptions:<br/>
+    {% for config in country.configurations %}
+        <a href="{{ config.file }}" class="encryption">{{ config.encryption }}</a>
     {% endfor %}
   </div>
   {% endfor %}
