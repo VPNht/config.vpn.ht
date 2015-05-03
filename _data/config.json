@@ -147,6 +147,35 @@
 			}
 		]
 	},{
+		"name": "Luxembourg",
+		"code": "lu",
+		"default": {
+			"name": "Default",
+			"encryption": "default",
+			"description": "Default configuration for Luxembourg",
+			"file": "http://config.vpn.ht/public/files/vpnht-lu.ovpn"
+		},
+		"configurations": [
+			{
+				"name": "64-bit encryption",
+				"encryption": "64bit",
+				"description": "64-bit configuration for Luxembourg",
+				"file": "http://config.vpn.ht/public/files/vpnht-lu-64.ovpn"
+			},
+			{
+				"name": "128-bit encryption",
+				"encryption": "128bit",
+				"description": "128-bit configuration for Luxembourg",
+				"file": "http://config.vpn.ht/public/files/vpnht-lu-128.ovpn"
+			},
+			{
+				"name": "256-bit encryption",
+				"encryption": "256bit",
+				"description": "256-bit configuration for Luxembourg",
+				"file": "http://config.vpn.ht/public/files/vpnht-lu-256.ovpn"
+			}
+		]
+	},{
 		"name": "Mexico",
 		"code": "mex",
 		"default": {
