@@ -12,12 +12,18 @@ layout: default
       {{ country.name }}
     </h3>
     <p>
-      <a href="{{ country.default.file }}" class="btn">Download</a>
+      <a href="https://vpn.ht/openvpn-config/{{ country.code }}" class="btn">Download</a>
     </p>
     Other encryptions:<br/>
-    {% for config in country.configurations %}
-        <a href="{{ config.file }}" class="encryption">{{ config.encryption }}</a>
-    {% endfor %}
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/64" class="encryption">64 Bits</a>
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/128" class="encryption">128 Bits</a>
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/256" class="encryption">256 Bits</a>
+
+    <br/><br/>Other ports:<br/>
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/443" class="encryption">TCP 443</a>
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/80" class="encryption">TCP 80</a>
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/53" class="encryption">UDP 53</a>
+    <a href="https://vpn.ht/openvpn-config/{{ country.code }}/3389" class="encryption">UDP 3389</a>
   </div>
   {% endfor %}
 </div>

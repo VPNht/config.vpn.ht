@@ -1,349 +1,42 @@
 [
 	{
 		"name": "Australia",
-		"code": "au",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Australia",
-			"file": "http://config.vpn.ht/public/files/vpnht-au.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Australia",
-				"file": "http://config.vpn.ht/public/files/vpnht-au-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Australia",
-				"file": "http://config.vpn.ht/public/files/vpnht-au-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Australia",
-				"file": "http://config.vpn.ht/public/files/vpnht-au-256.ovpn"
-			}
-		]
+		"code": "au"
 	},{
 		"name": "Canada",
-		"code": "ca",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Canada",
-			"file": "http://config.vpn.ht/public/files/vpnht-ca.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Canada",
-				"file": "http://config.vpn.ht/public/files/vpnht-ca-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Canada",
-				"file": "http://config.vpn.ht/public/files/vpnht-ca-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Canada",
-				"file": "http://config.vpn.ht/public/files/vpnht-ca-256.ovpn"
-			}
-		]
+		"code": "ca"
 	},{
 		"name": "Europe",
-		"code": "eu",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Europe",
-			"file": "http://config.vpn.ht/public/files/vpnht-eu.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Europe",
-				"file": "http://config.vpn.ht/public/files/vpnht-eu-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Europe",
-				"file": "http://config.vpn.ht/public/files/vpnht-eu-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Europe",
-				"file": "http://config.vpn.ht/public/files/vpnht-eu-256.ovpn"
-			}
-		]
-	},
-	{
+		"code": "eu"
+	},{
 		"name": "France",
-		"code": "fr",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for France",
-			"file": "http://config.vpn.ht/public/files/vpnht-fr.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for France",
-				"file": "http://config.vpn.ht/public/files/vpnht-fr-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for France",
-				"file": "http://config.vpn.ht/public/files/vpnht-fr-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for France",
-				"file": "http://config.vpn.ht/public/files/vpnht-fr-256.ovpn"
-			}
-		]
-	},
-	{
+		"code": "fr"
+	},{
 		"name": "Germany",
-		"code": "de",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Germany",
-			"file": "http://config.vpn.ht/public/files/vpnht-de.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Germany",
-				"file": "http://config.vpn.ht/public/files/vpnht-de-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Germany",
-				"file": "http://config.vpn.ht/public/files/vpnht-de-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Germany",
-				"file": "http://config.vpn.ht/public/files/vpnht-de-256.ovpn"
-			}
-		]
+		"code": "de"
 	},{
 		"name": "Luxembourg",
-		"code": "lu",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Luxembourg",
-			"file": "http://config.vpn.ht/public/files/vpnht-lu.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Luxembourg",
-				"file": "http://config.vpn.ht/public/files/vpnht-lu-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Luxembourg",
-				"file": "http://config.vpn.ht/public/files/vpnht-lu-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Luxembourg",
-				"file": "http://config.vpn.ht/public/files/vpnht-lu-256.ovpn"
-			}
-		]
+		"code": "lu"
+	},{
+		"name": "Lithuania",
+		"code": "lt"
 	},{
 		"name": "Mexico",
-		"code": "mex",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Mexico",
-			"file": "http://config.vpn.ht/public/files/vpnht-mex.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Mexico",
-				"file": "http://config.vpn.ht/public/files/vpnht-mex-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Mexico",
-				"file": "http://config.vpn.ht/public/files/vpnht-mex-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Mexico",
-				"file": "http://config.vpn.ht/public/files/vpnht-mex-256.ovpn"
-			}
-		]
+		"code": "mex"
 	},{
 		"name": "The Netherlands",
-		"code": "nl",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for The Netherlands",
-			"file": "http://config.vpn.ht/public/files/vpnht-nl.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for The Netherlands",
-				"file": "http://config.vpn.ht/public/files/vpnht-nl-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for The Netherlands",
-				"file": "http://config.vpn.ht/public/files/vpnht-nl-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for The Netherlands",
-				"file": "http://config.vpn.ht/public/files/vpnht-nl-256.ovpn"
-			}
-		]
+		"code": "nl"
 	},{
 		"name": "Singapore",
-		"code": "sg",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for Singapore",
-			"file": "http://config.vpn.ht/public/files/vpnht-sg.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for Singapore",
-				"file": "http://config.vpn.ht/public/files/vpnht-sg-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for Singapore",
-				"file": "http://config.vpn.ht/public/files/vpnht-sg-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for Singapore",
-				"file": "http://config.vpn.ht/public/files/vpnht-sg-256.ovpn"
-			}
-		]
+		"code": "sg"
+	},{
+		"name": "United Kingdom",
+		"code": "uk"
 	},{
 		"name": "United States",
-		"code": "us",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration for United States",
-			"file": "http://config.vpn.ht/public/files/vpnht-us.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration for United States",
-				"file": "http://config.vpn.ht/public/files/vpnht-us-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration for United States",
-				"file": "http://config.vpn.ht/public/files/vpnht-us-128.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration for United States",
-				"file": "http://config.vpn.ht/public/files/vpnht-us-256.ovpn"
-			}
-		]
-	},
-	{
+		"code": "us"
+	},{
 		"name": "Nearest",
-		"code": "nearest",
-		"default": {
-			"name": "Default",
-			"encryption": "default",
-			"description": "Default configuration",
-			"file": "http://config.vpn.ht/public/files/vpnht.ovpn"
-		},
-		"configurations": [
-			{
-				"name": "64-bit encryption",
-				"encryption": "64bit",
-				"description": "64-bit configuration",
-				"file": "http://config.vpn.ht/public/files/vpnht-64.ovpn"
-			},
-			{
-				"name": "128-bit encryption",
-				"encryption": "128bit",
-				"description": "128-bit configuration",
-				"file": "http://config.vpn.ht/public/files/vpnht-128.ovpn"
-			},
-			{
-				"name": "128-bit encryption, UDP port 53",
-				"encryption": "128bit 53 UDP",
-				"description": "128-bit configuration for connecting over UDP port 53",
-				"file": "http://config.vpn.ht/public/files/vpnht-128-53udp.ovpn"
-			},
-			{
-				"name": "126-bit encryption",
-				"encryption": "128bit 443",
-				"description": "128-bit configuration for connecting over port 443",
-				"file": "http://config.vpn.ht/public/files/vpnht-128-port443.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit",
-				"description": "256-bit configuration",
-				"file": "http://config.vpn.ht/public/files/vpnht-256.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit 3389 UDP",
-				"description": "256-bit configuration for connecting over UDP port 3389",
-				"file": "http://config.vpn.ht/public/files/vpnht-256-3389udp.ovpn"
-			},
-			{
-				"name": "256-bit encryption",
-				"encryption": "256bit 80",
-				"description": "256-bit configuration for connecting over port 80",
-				"file": "http://config.vpn.ht/public/files/vpnht-256-port80.ovpn"
-			}
-		]
+		"code": "hub"
 	}
 ]
