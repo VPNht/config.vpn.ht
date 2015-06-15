@@ -6,9 +6,6 @@
 		"name": "Canada",
 		"code": "ca"
 	},{
-		"name": "Hong Kong",
-		"code": "hk"
-	},{
 		"name": "Europe",
 		"code": "eu"
 	},{
@@ -17,6 +14,9 @@
 	},{
 		"name": "Germany",
 		"code": "de"
+	},{
+		"name": "Hong Kong",
+		"code": "hk"
 	},{
 		"name": "Luxembourg",
 		"code": "lu"
