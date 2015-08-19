@@ -8,7 +8,7 @@ permalink:        none
 # Setup
 title:            'VPN.ht'
 description:      'Regional Gateways and custom OpenVPN Configurations.'
-url:              https://config.vpn.ht
+url:              http://config.vpn.ht
 
 author:
   name:           'VPN.ht'
