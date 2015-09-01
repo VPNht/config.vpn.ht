@@ -44,6 +44,8 @@ h1, h2, h3 {
   text-indent: -9999px;
   background-image: url(https://vpn.ht/themes/vpnht/assets/www2/images/logo.png);
   background-size: 159px 62px;
+  width: 159px;
+  height: 62px;
 }
 .header-lead {
   margin-bottom: 0;
