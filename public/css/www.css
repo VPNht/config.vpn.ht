@@ -26,8 +26,8 @@ a:focus {
 }
 .btn:hover,
 .btn:focus {
-  color: #26282d;
-  background-color: #5a5a5a;
+  color: #5a5a5a;
+  background-color: #00a6a3;
   border-color: #00a6a3;
 }
 
@@ -74,6 +74,10 @@ hr {
 }
 
 .encryption {
-    font-size:10px;
-    margin-right:20px;
+  font-size:10px;
+  margin-right:20px;
+}
+
+.encryption:hover {
+  color: #00a6a3;
 }
